@@ -11,96 +11,114 @@
 </head>
 
 <body>
-    <h1>Goals For year</h1>
+    <header>
+        <h1>Goals For year</h1>
+
+        <hr>
+
+        <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation">Primary Navigation</h2>
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vavation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
+    <main>
+        <article id="html">
+        <h2>Learning HTML</h2>
+        <p>This is my first web page.</p>
+        <section>
+            <h3>HTML5</h3>
+            <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+            <figure>
+                <figcaption>An Example of HTML code</figcaption>
+                <p>
+                    <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                </p>
+            </figure>
+        </section>
+        <section>
+            <h3>Daily Schedule</h3>
+            <p>Let me tell you how:</p>
+                <ol>
+                <li>...I learn more about web dev.</li>
+                <li>...I plan out my schedule</li>
+                <li>...I use resources from <abbr title="Mozilla Developer Network">
+                    <a href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                    <p>I start at <time datetime="08:00"> 8 am</time> and write code for <time datetime="PT3H"> 3 hours</time> every morning</p>
+                </details>
+            </aside>
+        </section>
+        </article>
+    
+        <hr>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#html">Learning HTML</a>
-            </li>
-            <li>
-                <a href="#vacation">Planning a Vavation</a>
-            </li>
-        </ul>
-    </nav>
+        <article id="vacation">
+        <h2>Vacation Planning</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>I live in <abbr title="Texas">TX</abbr> so I want to go to the beach</p>
 
+        <section>
+            <h3>Places To Go</h3>
+            <ul>
+                <li><p>Caribbean.</p>
+                <figure>
+                    <img src="img/caribbean.jpg" alt="Carribean Beach" title="Vist a beach" width="400" height="225" loading="lazy">
+                    <figcaption>
+                        Carribean Beach Getaway
+                    </figcaption>
+                </figure>
+                </li>
+
+                <li><p>I've heard good thing about going here:</p>
+                <address>
+                    Margaitaville
+                </address>
+                <figure>
+                    <img src="img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" loading="lazy" width="400" height="267">
+                    <figcaption>
+                        A Carribean Vaction Image
+                    </figcaption>
+                </figure>
+                </li>
+            </ul>
+        </section>
+        <!-- TODO: Add more places -->
+        <section>
+            <h3>Places To Avoid</h3>
+            <dl>
+                <dt>North Pole</dt>
+                <dd>I hear this is <strong>cold</strong></dd>
+
+                <dt>South Pole</dt>
+                <dd>This is also <strong>cold</strong></dd>
+
+                <dt>Mountain Tops</dt>
+                <dd>These are also <strong>cold</strong></dd>
+            </dl>
+        </section>
+        </article>
+    </main>
     <hr>
-
-    <section id="html">
-    <h2>Learning HTML</h2>
-    <p>This is my first web page.</p>
-    <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
-    <figure>
-        <figcaption>An Example of HTML code</figcaption>
+    <footer>
         <p>
-            <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            &lt;&lt;&lt; &copy; <a href="about.html">Shad Khan</a> &gt;&gt;&gt;
         </p>
-    </figure>
-    <img src="img/html_logo_300x300.png" alt="HTML5 Logo">
-
-    <h3>Daily Schedule</h3>
-    <p>Let me tell you how:</p>
-        <ol>
-        <li>...I learn more about web dev.</li>
-        <li>...I plan out my schedule</li>
-        <li>...I use resources from <abbr title="Mozilla Developer Network">
-            <a href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
-    </ol>
-    </section>
-
-    <hr>
-
-    <section id="vacation">
-    <h2>Vacation Planning</h2>
-    <p>I've been working hard and <em>really need a getaway</em>.</p>
-    <p>I live in <abbr title="Texas">TX</abbr> so I want to go to the beach</p>
-
-    <h3>Places To Go</h3>
-    <ul>
-        <li><p>Caribbean.</p>
-        <figure>
-            <img src="img/caribbean.jpg" alt="Carribean Beach" title="Vist a beach" width="400" height="225" loading="lazy">
-            <figcaption>
-                Carribean Beach Getaway
-            </figcaption>
-        </figure>
-        </li>
-
-        <li><p>I've heard good thing about going here:</p>
-        <address>
-            Margaitaville
-        </address>
-        <figure>
-            <img src="img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somewhere" loading="lazy" width="400" height="267">
-            <figcaption>
-                A Carribean Vaction Image
-            </figcaption>
-        </figure>
-        </li>
-    </ul>
-
-    <!-- TODO: Add more places -->
-    <h3>Places To Avoid</h3>
-    <dl>
-        <dt>North Pole</dt>
-        <dd>I hear this is <strong>cold</strong></dd>
-
-        <dt>South Pole</dt>
-        <dd>This is also <strong>cold</strong></dd>
-
-        <dt>Mountain Tops</dt>
-        <dd>These are also <strong>cold</strong></dd>
-    </dl>
-    </section>
-
-    <hr>
-    &lt;&lt;&lt; &copy; <a href="about.html">Shad Khan</a> &gt;&gt;&gt;
-    <p>
-        <a href="#">Back to Top</a>
-    </p>
-
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
 </body>
 
 </html>
